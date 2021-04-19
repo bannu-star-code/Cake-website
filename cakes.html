@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- My Tool Kit for Icons  -->
+  <script src="https://kit.fontawesome.com/c1134e3a94.js" crossorigin="anonymous"></script>
+
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+<!-- font-family: 'Original Surfer', cursive; -->
+
+<!-- cursive -->
+<link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+<!-- font-family: 'Original Surfer', cursive; -->
+
+
+
+    <title>Cakes Site</title>
+    <link rel="stylesheet" href="cakes.css">
+</head>
+<body>
+    <div class="container-fluid" style="position:fixed;top:0px;background-color:white;" >
+    <nav class="navbar navbar-expand-sm " >
+      
+        <!-- Brand/logo -->
+        <!-- <a class="navbar-brand" href="#">Logo</a>
+         -->
+         <img  src="https://www.monginis.net/media/wysiwyg/magenthemes/mtbelano/logo/LOGO-new-site.png" alt="" class="responsive">
+        
+        <!-- Links -->
+        <ul class="navbar-nav" >
+          <li class="nav-item">
+            <a class="nav-link" href="#">MENU</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#">MONGILAND</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT US</a>
+          </li>
+          
+        </ul>
+        
+        <h5 class="ml-auto mt-2" style="margin-right:10px;cursor:pointer" onclick="openNav1()">LOG IN</h5>
+        <span style="font-size:30px;cursor:pointer" class="span" onclick="openNav()">&#9776;</span>
+      </nav>
+    </div>  
+    
+
+<br><br><br><br><br>
+
+
+  
+<div class="container" style="font-family: 'Original Surfer', cursive;font-size: 60px;">
+    <p>Hellolorem10
+        Lorem ipsum, 
+    </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Hideen Barssssssssssssssssssssssssssssssssssss -->
+<div id="mySidenav1" class="sidenav1" >
+    <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-6"><h2>LOG IN</h2>
+                <p style="margin: 0px 5px;">or</p><a href="#">Create An Account</a></div>
+            <div class="col-6">
+                <img src="https://image.shutterstock.com/image-photo/birthday-cake-cream-chocolate-drips-260nw-588794282.jpg" alt="" class="responsive">
+            </div>
+        </div>
+    </div>
+    <br>
+ <div class="cotainer" style="margin: 5px 10px;">
+    <label for="Phone No" style="margin: 5px 10px"><h4>Phone No</h4></label><br>
+    <input type="text" placeholder="Your Phone Number" style="margin: 5px 10px;width: 200px;height: 50px;border: 1px solid white;border-radius: 5px;">
+ </div>
+</div>
+  
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="#">MENU</a>
+<a href="#">MONGILANG</a>
+<a href="#">ABOUT US</a>
+<a href="#">CONTACT US</a>
+</div>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    function openNav1() {
+      document.getElementById("mySidenav1").style.width = "300px";
+    }
+    
+    function closeNav1() {
+      document.getElementById("mySidenav1").style.width = "0";
+    }
+    </script>
+  
+</body>
+</html>
