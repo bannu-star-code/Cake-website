@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -14,388 +15,628 @@
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
-<!-- font-family: 'Original Surfer', cursive; -->
+  <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+  <!-- font-family: 'Original Surfer', cursive; -->
 
-<!-- cursive -->
-<link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
-<!-- font-family: 'Original Surfer', cursive; -->
+  <!-- cursive -->
+  <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+  <!-- font-family: 'Original Surfer', cursive; -->
 
 
 
-    <title>Cakes Site</title>
-    <link rel="stylesheet" href="cakes.css">
+  <title>Cakes Site</title>
+  <link rel="stylesheet" href="cakes.css">
 </head>
+
 <body>
-    <div class="container-fluid" style="position:fixed;top:0px;background-color:rgb(253, 250, 250);z-index: 1;" >
-    <nav class="navbar navbar-expand-sm " >
-      
-        <!-- Brand/logo -->
-        <!-- <a class="navbar-brand" href="#">Logo</a>
+  <div class="container-fluid" style="position:fixed;top:0px;background-color:rgb(253, 250, 250);z-index: 1;">
+    <nav class="navbar navbar-expand-sm ">
+
+      <!-- Brand/logo -->
+      <!-- <a class="navbar-brand" href="#">Logo</a>
          -->
-         <img  src="https://www.monginis.net/media/wysiwyg/magenthemes/mtbelano/logo/LOGO-new-site.png" alt="" class="responsive">
-        
-        <!-- Links -->
-        <ul class="navbar-nav" >
-          <li class="nav-item">
-            <a class="nav-link" href="#">MENU</a>
-          </li>
-         
-          <li class="nav-item">
-            <a class="nav-link" href="#">MONGILAND</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT US</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT US</a>
-          </li>
-          
-        </ul>
-        
-        <h5 class="ml-auto mt-2" style="margin-right:10px;cursor:pointer" onclick="openNav1()">LOG IN</h5>
-        <span style="font-size:30px;cursor:pointer" class="span" onclick="openNav()">&#9776;</span>
-      </nav>
-    </div>  
-    
+      <img src="https://www.monginis.net/media/wysiwyg/magenthemes/mtbelano/logo/LOGO-new-site.png" alt=""
+        class="responsive">
 
-<br><br><br><br><br>
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">MENU</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">MONGILAND</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CONTACT US</a>
+        </li>
+
+      </ul>
+
+      <h5 class="ml-auto mt-2" style="margin-right:10px;cursor:pointer" onclick="openNav1()">LOG IN</h5>
+      <span style="font-size:30px;cursor:pointer" class="span" onclick="openNav()">&#9776;</span>
+    </nav>
+  </div>
 
 
-  
-<div class="container-fluid pt-5 pb-5 mb-5" style="font-size: 30px;">
-   <h4>Browse Cakes By Flavour</h4>
-   <div class="row">
-       <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-           <img src="https://img.floweraura.com/sites/default/files/black_forest_flavour_0.jpg?tr=h-164,w-164" alt="" class="responsive"><h3 style="margin: 0px 10px;">Chocolate</h3>
-           </div>
-           <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-           <img src="https://img.floweraura.com/sites/default/files/butterscotch_flavour%20(1).jpg?tr=h-164,w-164" alt="" class="responsive"><h3 style="margin: 0px 10px;">Chocolate</h3></div>
-       <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-           <img src="https://img.floweraura.com/sites/default/files/chocolate_flavour%20(1).jpg?tr=h-164,w-164" alt="" class="responsive"><h3 style="margin: 0px 10px;">Chocolate</h3></div>
-       <div class="col-lg-2 col-md-3 col-sm-4 col-6"><img src="https://img.floweraura.com/sites/default/files/fruit_cakes_flavour_0.jpg?tr=h-164,w-164" alt="" class="responsive"><h3 style="margin: 0px 10px;">Chocolate</h3></div>
-        
-       <div class="col-lg-2 col-md-3 col-sm-4 col-6"><img src="https://img.floweraura.com/sites/default/files/pineapple_flavour%20(1).jpg?tr=h-164,w-164" alt="" class="responsive"><h3 style="margin: 0px 10px;">Chocolate</h3></div>
-       <div class="col-lg-2 col-md-3 col-sm-4 col-6"><img src="https://img.floweraura.com/sites/default/files/red_velvet_flavour_0.jpg?tr=h-164,w-164" alt="" class="responsive"><h3 style="margin: 0px 10px;">Chocolate</h3></div>
-       <div class="col-lg-2 col-md-3 col-sm-4 col-6"><img src="https://img.floweraura.com/sites/default/files/coffee_cakes_flavour_0.jpg?tr=h-164,w-164" alt="" class="responsive"><h3 style="margin: 0px 10px;">Chocolate</h3></div>
-       <div class="col-lg-2 col-md-3 col-sm-4 col-6"><img src="https://img.floweraura.com/sites/default/files/strawberry_flavour%20(1).jpg?tr=h-164,w-164" alt="" class="responsive"><h3 style="margin: 0px 10px;">Chocolate</h3></div>
-       <div class="col-lg-2 col-md-3 col-sm-4 col-6"><img src="https://img.floweraura.com/sites/default/files/kitkat_0.png?tr=h-164,w-164" alt="" class="responsive"><h3 style="margin: 0px 10px;">Chocolate</h3></div>
-       <div class="col-lg-2 col-md-3 col-sm-4 col-6"><img src="https://img.floweraura.com/sites/default/files/nutty-mango-cake-9963010ca-A_2@2x.jpg?tr=h-164,w-164 col-6" alt="" class="responsive"><h3 style="margin: 0px 10px;">Chocolate</h3></div>
-       <div class="col-lg-2 col-md-3 col-sm-4 col-6"><img src="https://img.floweraura.com/sites/default/files/Group%2036_23@2x.jpg?tr=h-164,w-164" alt="" class="responsive"><h3 style="margin: 0px 10px;">Chocolate</h3></div>
+  <br><br><br><br><br>
+
+
+
+  <div class="container-fluid pt-5 pb-5 mb-5" style="font-size: 30px;">
+    <h4>Browse Cakes By Flavour</h4>
+    <div class="row">
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <img src="https://img.floweraura.com/sites/default/files/black_forest_flavour_0.jpg?tr=h-164,w-164" alt=""
+          class="responsive">
+        <h3 style="margin: 0px 10px;">Chocolate</h3>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <img src="https://img.floweraura.com/sites/default/files/butterscotch_flavour%20(1).jpg?tr=h-164,w-164" alt=""
+          class="responsive">
+        <h3 style="margin: 0px 10px;">Chocolate</h3>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <img src="https://img.floweraura.com/sites/default/files/chocolate_flavour%20(1).jpg?tr=h-164,w-164" alt=""
+          class="responsive">
+        <h3 style="margin: 0px 10px;">Chocolate</h3>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6"><img
+          src="https://img.floweraura.com/sites/default/files/fruit_cakes_flavour_0.jpg?tr=h-164,w-164" alt=""
+          class="responsive">
+        <h3 style="margin: 0px 10px;">Chocolate</h3>
+      </div>
+
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6"><img
+          src="https://img.floweraura.com/sites/default/files/pineapple_flavour%20(1).jpg?tr=h-164,w-164" alt=""
+          class="responsive">
+        <h3 style="margin: 0px 10px;">Chocolate</h3>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6"><img
+          src="https://img.floweraura.com/sites/default/files/red_velvet_flavour_0.jpg?tr=h-164,w-164" alt=""
+          class="responsive">
+        <h3 style="margin: 0px 10px;">Chocolate</h3>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6"><img
+          src="https://img.floweraura.com/sites/default/files/coffee_cakes_flavour_0.jpg?tr=h-164,w-164" alt=""
+          class="responsive">
+        <h3 style="margin: 0px 10px;">Chocolate</h3>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6"><img
+          src="https://img.floweraura.com/sites/default/files/strawberry_flavour%20(1).jpg?tr=h-164,w-164" alt=""
+          class="responsive">
+        <h3 style="margin: 0px 10px;">Chocolate</h3>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6"><img
+          src="https://img.floweraura.com/sites/default/files/kitkat_0.png?tr=h-164,w-164" alt="" class="responsive">
+        <h3 style="margin: 0px 10px;">Chocolate</h3>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6"><img
+          src="https://img.floweraura.com/sites/default/files/nutty-mango-cake-9963010ca-A_2@2x.jpg?tr=h-164,w-164 col-6"
+          alt="" class="responsive">
+        <h3 style="margin: 0px 10px;">Chocolate</h3>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6"><img
+          src="https://img.floweraura.com/sites/default/files/Group%2036_23@2x.jpg?tr=h-164,w-164" alt=""
+          class="responsive">
+        <h3 style="margin: 0px 10px;">Chocolate</h3>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- <div class="cont" style="background-color: red;width: 300px;">
+    <img src="https://media.bakingo.com/sites/default/files/chocolate@2x_0.png" alt="" >
+    <h3>Chooclate</h3>
+    <p>Choco Addicts</p>
+    </div> -->
+
+  <div class="container-fluid" style="background-color:rgb(245, 243, 243);">
+    <h3 class="text-center">Experience Flavours</h3>
+    <div class="row" style="margin: 50px 20px;">
+      <div class="col-lg-3 col-md-4 col-6 ">
+        <div class="cont" >
+        <img src="https://media.bakingo.com/sites/default/files/chocolate@2x_0.png" alt="" style="border-radius: 10px;" class="img1" >
+        <h3 class="text-center">Chooclate</h3>
+        <p class="text-center">Choco Addicts</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12" >
+        <div class="cont" >
+          <img src="https://media.bakingo.com/sites/default/files/fruit@2x_1_0.png" alt=""  class="img1" style="border-radius: 10px;">
+          <h3 class="text-center">Chooclate</h3>
+          <p class="text-center">Choco Addicts</p>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+        <div class="cont" >
+          <img src="https://media.bakingo.com/sites/default/files/exotics_pastry@2x_0.png" alt=""  class="img1" style="border-radius: 10px;">
+          <h3 class="text-center">Chooclate</h3>
+          <p class="text-center">Choco Addicts</p>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+        <div class="cont" >
+          <img src="https://media.bakingo.com/sites/default/files/black_forest@2x_0.png" alt="" style="border-radius: 10px;">
+          <h3 class="text-center">Chooclate</h3>
+          <p class="text-center">Choco Addicts</p>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+        <div class="cont" >
+          <img src="https://media.bakingo.com/sites/default/files/butterscotch@2x_0.png" alt=""  class="img1" style="border-radius: 10px;">
+          <h3 class="text-center">Chooclate</h3>
+          <p class="text-center">Choco Addicts</p>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+        <div class="cont" >
+          <img src="https://media.bakingo.com/sites/default/files/vanilla@2x_2_0.png" alt="" class="img1" style="border-radius: 10px;" >
+          <h3 class="text-center">Chooclate</h3>
+          <p class="text-center">Choco Addicts</p>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+        <div class="cont" >
+          <img src="https://media.bakingo.com/sites/default/files/coffee@2x_2_0.png" alt=""  class="img1" style="border-radius: 10px;">
+          <h3 class="text-center">Chooclate</h3>
+          <p class="text-center">Choco Addicts</p>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+        <div class="cont" >
+          <img src="https://media.bakingo.com/sites/default/files/stawberry@2x_0.png" alt=""  class="img1" style="border-radius: 10px;">
+          <h3 class="text-center">Chooclate</h3>
+          <p class="text-center">Choco Addicts</p>
+          </div>
+      </div>
+  </div>
+   </div>
+
+  </div>
+
       
 
-   </div>
-</div>
+<br><br>
 
 
 
-<div class="container-fluid" style="background-color:#f4f7fc">
+
+    
+ <div class="container-fluid" style="background-color:#f4f7fc">
     <div class="row">
-        
-        <div class="MultiCarousel" data-items="1,3,5,6" data-slide="2" id="MultiCarousel"  data-interval="1000">
-            <div class="MultiCarousel-inner pt-4" style="margin: 0px 20px;">
-                <h1 style="margin: 5px 20px;">Delicious Cake</h1>
-                <p style="margin: 5px 20px;">A perfect way to send smile!</p>
-                <div class="item" >
-                    <div class="pad15">
-                      <img src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Cake-01-C.jpg?tr=h-304,w-304" alt="" class="responsive">
-                      <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
-                      <h3 style="margin: 0px 20px;">Rs. 499</h3>
-                      <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
-                       
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                        <img src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Frosty-Round-Chocolate-Cake-230518-A.jpg?tr=h-304,w-304" alt="" class="responsive">
-                      <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
-                      <h3 style="margin: 0px 20px;">Rs. 499</h3>
-                      <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                        <img src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Premium-Butterscotch-Cake-230518-A_0.jpg?tr=h-304,w-304" alt="" class="responsive">
-                      <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
-                      <h3 style="margin: 0px 20px;">Rs. 499</h3>
-                      <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                        <img src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/silky-smooth-kitkat-cake-9913530ca-A.jpg?tr=h-304,w-304" alt="" class="responsive">
-                      <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
-                      <h3 style="margin: 0px 20px;">Rs. 499</h3>
-                      <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                        <img src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/02%20floweraura.jpg?tr=h-304,w-304" alt="" class="responsive">
-                      <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
-                      <h3 style="margin: 0px 20px;">Rs. 499</h3>
-                      <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                        <img src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Butterscotch-Cake-1-C.jpg?tr=h-304,w-304" alt="" class="responsive">
-                      <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
-                      <h3 style="margin: 0px 20px;">Rs. 499</h3>
-                      <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                        <img src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/snowlicious-bday-cake-9936880ca-A.jpg?tr=h-304,w-304" alt="" class="responsive">
-                      <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
-                      <h3 style="margin: 0px 20px;">Rs. 499</h3>
-                      <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                        <img src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Strawberry-Cake_0.jpg?tr=h-304,w-304" alt="" class="responsive">
-                      <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
-                      <h3 style="margin: 0px 20px;">Rs. 499</h3>
-                      <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                        <img src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Re-Shoot-Cake-11-A.jpg?tr=h-304,w-304" alt="" class="responsive">
-                      <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
-                      <h3 style="margin: 0px 20px;">Rs. 499</h3>
-                      <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                        <img src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/red-velvety-and-fruity-delight-A-9998510ca-071217.jpg?tr=h-304,w-304" alt="" class="responsive">
-                      <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
-                      <h3 style="margin: 0px 20px;">Rs. 499</h3>
-                      <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                        <img src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Cake-01-C.jpg?tr=h-304,w-304" alt="" class="responsive">
-                      <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
-                      <h3 style="margin: 0px 20px;">Rs. 499</h3>
-                      <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                        <img src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Cake-01-C.jpg?tr=h-304,w-304" alt="" class="responsive">
-                      <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
-                      <h3 style="margin: 0px 20px;">Rs. 499</h3>
-                      <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                        <img src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Cake-01-C.jpg?tr=h-304,w-304" alt="" class="responsive">
-                      <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
-                      <h3 style="margin: 0px 20px;">Rs. 499</h3>
-                      <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                        <img src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Cake-01-C.jpg?tr=h-304,w-304" alt="" class="responsive">
-                      <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
-                      <h3 style="margin: 0px 20px;">Rs. 499</h3>
-                      <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                        <img src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Cake-01-C.jpg?tr=h-304,w-304" alt="" class="responsive">
-                      <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
-                      <h3 style="margin: 0px 20px;">Rs. 499</h3>
-                      <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                        <img src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Cake-01-C.jpg?tr=h-304,w-304" alt="" class="responsive">
-                      <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
-                      <h3 style="margin: 0px 20px;">Rs. 499</h3>
-                      <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
-                    </div>
-                </div>
-            </div>
-            <button class="btn  leftLst"><</button>
-            <button class="btn  rightLst">></button>
-        </div>
-    </div>
-    
-</div>
-
-
-
-
-
-
-
-
-
-
-
-<!-- Hideen Barssssssssssssssssssssssssssssssssssss -->
-<div id="mySidenav1" class="sidenav1" >
-    <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
-    <div class="container">
+       
+     <div class="container-fluid">
         <div class="row">
-            <div class="col-6"><h2>LOG IN</h2>
-                <p style="margin: 0px 5px;">or</p><a href="#">Create An Account</a></div>
-            <div class="col-6">
-                <img src="https://image.shutterstock.com/image-photo/birthday-cake-cream-chocolate-drips-260nw-588794282.jpg" alt="" class="responsive">
+          <div class="col-4 mt-5 delicious" style="margin-bottom: -30px;margin:0px 20px;margin-left: 60px;">
+            <h2>Delicious Cakes</h2>
+            <p>A perfect way to send smile!</p>
+            </div>
+            <div class="col-6 text-right mt-5">
+              <button class="view"
+                style="color:rgb(211, 101, 165);background-color:white;padding: 13px 28px;border: 1px solid pink;font-size: 20px;">View
+                ALL
+              </button>
+            
             </div>
         </div>
+      </div>
+    
+      
+
+     <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
+          <div class="MultiCarousel-inner mx-5" style="margin: 0px 0px;">
+
+            <div class="item">
+              <div class="pad15">
+                <img
+                  src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Cake-01-C.jpg?tr=h-304,w-304"
+                  alt="" class="responsive">
+                <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
+                <h3 style="margin: 0px 20px;">Rs. 499</h3>
+                <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
+
+              </div>
+            </div>
+            <div class="item">
+              <div class="pad15">
+                <img
+                  src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Frosty-Round-Chocolate-Cake-230518-A.jpg?tr=h-304,w-304"
+                  alt="" class="responsive">
+                <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
+                <h3 style="margin: 0px 20px;">Rs. 499</h3>
+                <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="pad15">
+                <img
+                  src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Premium-Butterscotch-Cake-230518-A_0.jpg?tr=h-304,w-304"
+                  alt="" class="responsive">
+                <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
+                <h3 style="margin: 0px 20px;">Rs. 499</h3>
+                <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="pad15">
+                <img
+                  src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/silky-smooth-kitkat-cake-9913530ca-A.jpg?tr=h-304,w-304"
+                  alt="" class="responsive">
+                <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
+                <h3 style="margin: 0px 20px;">Rs. 499</h3>
+                <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="pad15">
+                <img
+                  src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/02%20floweraura.jpg?tr=h-304,w-304"
+                  alt="" class="responsive">
+                <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
+                <h3 style="margin: 0px 20px;">Rs. 499</h3>
+                <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="pad15">
+                <img
+                  src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Butterscotch-Cake-1-C.jpg?tr=h-304,w-304"
+                  alt="" class="responsive">
+                <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
+                <h3 style="margin: 0px 20px;">Rs. 499</h3>
+                <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="pad15">
+                <img
+                  src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/snowlicious-bday-cake-9936880ca-A.jpg?tr=h-304,w-304"
+                  alt="" class="responsive">
+                <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
+                <h3 style="margin: 0px 20px;">Rs. 499</h3>
+                <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="pad15">
+                <img
+                  src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Strawberry-Cake_0.jpg?tr=h-304,w-304"
+                  alt="" class="responsive">
+                <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
+                <h3 style="margin: 0px 20px;">Rs. 499</h3>
+                <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="pad15">
+                <img
+                  src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Re-Shoot-Cake-11-A.jpg?tr=h-304,w-304"
+                  alt="" class="responsive">
+                <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
+                <h3 style="margin: 0px 20px;">Rs. 499</h3>
+                <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="pad15">
+                <img
+                  src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/red-velvety-and-fruity-delight-A-9998510ca-071217.jpg?tr=h-304,w-304"
+                  alt="" class="responsive">
+                <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
+                <h3 style="margin: 0px 20px;">Rs. 499</h3>
+                <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="pad15">
+                <img
+                  src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Cake-01-C.jpg?tr=h-304,w-304"
+                  alt="" class="responsive">
+                <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
+                <h3 style="margin: 0px 20px;">Rs. 499</h3>
+                <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="pad15">
+                <img
+                  src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Cake-01-C.jpg?tr=h-304,w-304"
+                  alt="" class="responsive">
+                <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
+                <h3 style="margin: 0px 20px;">Rs. 499</h3>
+                <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="pad15">
+                <img
+                  src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Cake-01-C.jpg?tr=h-304,w-304"
+                  alt="" class="responsive">
+                <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
+                <h3 style="margin: 0px 20px;">Rs. 499</h3>
+                <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="pad15">
+                <img
+                  src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Cake-01-C.jpg?tr=h-304,w-304"
+                  alt="" class="responsive">
+                <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
+                <h3 style="margin: 0px 20px;">Rs. 499</h3>
+                <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="pad15">
+                <img
+                  src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Cake-01-C.jpg?tr=h-304,w-304"
+                  alt="" class="responsive">
+                <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
+                <h3 style="margin: 0px 20px;">Rs. 499</h3>
+                <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="pad15">
+                <img
+                  src="https://img.floweraura.com/sites/default/files/styles/new_image_style_339/public/Cake-01-C.jpg?tr=h-304,w-304"
+                  alt="" class="responsive">
+                <h2 style="margin:0px 20px;margin-top: 20px;">lorem cake</h2>
+                <h3 style="margin: 0px 20px;">Rs. 499</h3>
+                <p style="margin: 0px 20px;padding-bottom: 20px;">Earlist Devilery:Tomorrow</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn  leftLst">
+            <
+              <button class="btn  rightLst">></button>
+        </div>
     </div>
-    <br>
- <div class="cotainer" style="margin: 5px 10px;">
-    <label for="Phone No" style="margin: 5px 10px"><h4>Phone No</h4></label><br>
-    <input type="text" placeholder="Your Phone Number" style="margin: 5px 10px;width: 200px;height: 50px;border: 1px solid white;border-radius: 5px;">
- </div>
-</div>
-  
-<div id="mySidenav" class="sidenav">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-<a href="#">MENU</a>
-<a href="#">MONGILANG</a>
-<a href="#">ABOUT US</a>
-<a href="#">CONTACT US</a>
-</div>
-  <script>
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-    }
-    
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-    }
-    function openNav1() {
-      document.getElementById("mySidenav1").style.width = "300px";
-    }
-    
-    function closeNav1() {
-      document.getElementById("mySidenav1").style.width = "0";
-    }
+
+  </div>
+
+  <br><br><br>
+
+
+
+  <div class="container" style="background-color: rgb(225, 226, 224);border-radius: 20px;">
+        <h2 class="text-center">Looking For Something Else</h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <img src="https://media.bakingo.com/sites/default/files/cup_cakes@2x_desktop_0_1.png" alt="" class="responsive" width="318px">
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <img src="https://media.bakingo.com/sites/default/files/cup_cakes@2x_desktop_0_1.png" alt="" class="responsive" width="318px">
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <img src="https://media.bakingo.com/sites/default/files/cup_cakes@2x_desktop_0_1.png" alt="" class="responsive" width="318px">
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <img src="https://media.bakingo.com/sites/default/files/cup_cakes@2x_desktop_0_1.png" alt="" class="responsive" width="318px">
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <img src="https://media.bakingo.com/sites/default/files/cup_cakes@2x_desktop_0_1.png" alt="" class="responsive" width="318px">
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <img src="https://media.bakingo.com/sites/default/files/cup_cakes@2x_desktop_0_1.png" alt="" class="responsive" width="318px">
+      </div>
+    </div>
+  </div>
+<br>
+  <div class="container-fluid" style="background-color: #effac9;">
+    <div class="row">
+      <div class="col-lg-6 col-12">
+        <img src="https://media.bakingo.com/sites/default/files/ssr-static/contact_form.png" alt="" class="responsive">
+      </div>
+      <div class="col-lg-6 col-12" >
+        <form action="post">
+          <h2>..Seeking for something special and customized ?</h2>
+          
+          
+          <div class="row">
+            <div class="col-6">
+              <label for="">Your Name</label>
+              <input type="text" style="width: 334px;height: 50px;" class="responsive">
+            </div>
+            <div class="col-6">
+              <label for="">Your Number</label><br>
+              <input type="number" style="width: 334px;height: 50px;" class="responsive">
+            </div>
+            <div class="col-12">
+              <label for="">Your Email</label><br>
+              <input type="text" style="width:500px;height: 50px;" class="responsive">
+            </div>
+            <div class="col-12">
+              <label for="">Message</label><br>
+              <input type="text" style="width:500px;height: 150px;" class="responsive">
+            </div>
+            <div class="col-12">
+              <br>
+              <input type="submit" style="width:500px;height: 50px;" placeholder="Submit Form" class="responsive">
+            </div>
+
+          <br>
+        
+          
+         
+          
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 
 
 
 
-    $(document).ready(function () {
+
+    <!-- Hideen Barssssssssssssssssssssssssssssssssssss -->
+    <div id="mySidenav1" class="sidenav1">
+      <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h2>LOG IN</h2>
+            <p style="margin: 0px 5px;">or</p><a href="#">Create An Account</a>
+          </div>
+          <div class="col-6">
+            <img
+              src="https://image.shutterstock.com/image-photo/birthday-cake-cream-chocolate-drips-260nw-588794282.jpg"
+              alt="" class="responsive">
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="cotainer" style="margin: 5px 10px;">
+        <label for="Phone No" style="margin: 5px 10px">
+          <h4>Phone No</h4>
+        </label><br>
+        <input type="text" placeholder="Your Phone Number"
+          style="margin: 5px 10px;width: 200px;height: 50px;border: 1px solid white;border-radius: 5px;">
+      </div>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">MENU</a>
+      <a href="#">MONGILANG</a>
+      <a href="#">ABOUT US</a>
+      <a href="#">CONTACT US</a>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      function openNav1() {
+        document.getElementById("mySidenav1").style.width = "300px";
+      }
+
+      function closeNav1() {
+        document.getElementById("mySidenav1").style.width = "0";
+      }
+
+
+
+
+      $(document).ready(function () {
         var itemsMainDiv = ('.MultiCarousel');
         var itemsDiv = ('.MultiCarousel-inner');
         var itemWidth = "";
-    
+
         $('.leftLst, .rightLst').click(function () {
-            var condition = $(this).hasClass("leftLst");
-            if (condition)
-                click(0, this);
-            else
-                click(1, this)
+          var condition = $(this).hasClass("leftLst");
+          if (condition)
+            click(0, this);
+          else
+            click(1, this)
         });
-    
+
         ResCarouselSize();
-    
-    
-    
-    
+
+
+
+
         $(window).resize(function () {
-            ResCarouselSize();
+          ResCarouselSize();
         });
-    
+
         //this function define the size of the items
         function ResCarouselSize() {
-            var incno = 0;
-            var dataItems = ("data-items");
-            var itemClass = ('.item');
-            var id = 0;
-            var btnParentSb = '';
-            var itemsSplit = '';
-            var sampwidth = $(itemsMainDiv).width();
-            var bodyWidth = $('body').width();
-            $(itemsDiv).each(function () {
-                id = id + 1;
-                var itemNumbers = $(this).find(itemClass).length;
-                btnParentSb = $(this).parent().attr(dataItems);
-                itemsSplit = btnParentSb.split(',');
-                $(this).parent().attr("id", "MultiCarousel" + id);
-    
-    
-                if (bodyWidth >= 1200) {
-                    incno = itemsSplit[3];
-                    itemWidth = sampwidth / incno;
-                }
-                else if (bodyWidth >= 992) {
-                    incno = itemsSplit[2];
-                    itemWidth = sampwidth / incno;
-                }
-                else if (bodyWidth >= 768) {
-                    incno = itemsSplit[1];
-                    itemWidth = sampwidth / incno;
-                }
-                else {
-                    incno = itemsSplit[0];
-                    itemWidth = sampwidth / incno;
-                }
-                $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
-                $(this).find(itemClass).each(function () {
-                    $(this).outerWidth(itemWidth);
-                });
-    
-                $(".leftLst").addClass("over");
-                $(".rightLst").removeClass("over");
-    
+          var incno = 0;
+          var dataItems = ("data-items");
+          var itemClass = ('.item');
+          var id = 0;
+          var btnParentSb = '';
+          var itemsSplit = '';
+          var sampwidth = $(itemsMainDiv).width();
+          var bodyWidth = $('body').width();
+          $(itemsDiv).each(function () {
+            id = id + 1;
+            var itemNumbers = $(this).find(itemClass).length;
+            btnParentSb = $(this).parent().attr(dataItems);
+            itemsSplit = btnParentSb.split(',');
+            $(this).parent().attr("id", "MultiCarousel" + id);
+
+
+            if (bodyWidth >= 1200) {
+              incno = itemsSplit[3];
+              itemWidth = sampwidth / incno;
+            }
+            else if (bodyWidth >= 992) {
+              incno = itemsSplit[2];
+              itemWidth = sampwidth / incno;
+            }
+            else if (bodyWidth >= 768) {
+              incno = itemsSplit[1];
+              itemWidth = sampwidth / incno;
+            }
+            else {
+              incno = itemsSplit[0];
+              itemWidth = sampwidth / incno;
+            }
+            $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+            $(this).find(itemClass).each(function () {
+              $(this).outerWidth(itemWidth);
             });
+
+            $(".leftLst").addClass("over");
+            $(".rightLst").removeClass("over");
+
+          });
         }
-    
-    
+
+
         //this function used to move the items
         function ResCarousel(e, el, s) {
-            var leftBtn = ('.leftLst');
-            var rightBtn = ('.rightLst');
-            var translateXval = '';
-            var divStyle = $(el + ' ' + itemsDiv).css('transform');
-            var values = divStyle.match(/-?[\d\.]+/g);
-            var xds = Math.abs(values[4]);
-            if (e == 0) {
-                translateXval = parseInt(xds) - parseInt(itemWidth * s);
-    
-                $(el + ' ' + rightBtn).removeClass("over");
-    
-                if (translateXval <= itemWidth / 2) {
-                    translateXval = 0;
-                    $(el + ' ' + leftBtn).addClass("over");
-                }
+          var leftBtn = ('.leftLst');
+          var rightBtn = ('.rightLst');
+          var translateXval = '';
+          var divStyle = $(el + ' ' + itemsDiv).css('transform');
+          var values = divStyle.match(/-?[\d\.]+/g);
+          var xds = Math.abs(values[4]);
+          if (e == 0) {
+            translateXval = parseInt(xds) - parseInt(itemWidth * s);
+
+            $(el + ' ' + rightBtn).removeClass("over");
+
+            if (translateXval <= itemWidth / 2) {
+              translateXval = 0;
+              $(el + ' ' + leftBtn).addClass("over");
             }
-            else if (e == 1) {
-                var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
-                translateXval = parseInt(xds) + parseInt(itemWidth * s);
-                $(el + ' ' + leftBtn).removeClass("over");
-    
-                if (translateXval >= itemsCondition - itemWidth / 2) {
-                    translateXval = itemsCondition;
-                    $(el + ' ' + rightBtn).addClass("over");
-                }
+          }
+          else if (e == 1) {
+            var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+            translateXval = parseInt(xds) + parseInt(itemWidth * s);
+            $(el + ' ' + leftBtn).removeClass("over");
+
+            if (translateXval >= itemsCondition - itemWidth / 2) {
+              translateXval = itemsCondition;
+              $(el + ' ' + rightBtn).addClass("over");
             }
-            $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+          }
+          $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
         }
-    
+
         //It is used to get some elements from btn
         function click(ell, ee) {
-            var Parent = "#" + $(ee).parent().attr("id");
-            var slide = $(Parent).attr("data-slide");
-            ResCarousel(ell, Parent, slide);
+          var Parent = "#" + $(ee).parent().attr("id");
+          var slide = $(Parent).attr("data-slide");
+          ResCarousel(ell, Parent, slide);
         }
-    
-    });
+
+      });
     </script>
-  
+
 </body>
+
 </html>
