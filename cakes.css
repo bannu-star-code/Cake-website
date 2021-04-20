@@ -61,6 +61,45 @@
   width: 100%;
   height: 100%;
 }
+
+
+
+
+.MultiCarousel 
+{ float: left;
+ overflow: hidden; 
+ padding: 15px;
+width: 100%;
+position:relative; }
+
+.MultiCarousel .MultiCarousel-inner 
+{ transition: 1s ease all;  
+float: left; }
+
+.MultiCarousel .MultiCarousel-inner .item
+{ float: left;}
+
+.MultiCarousel .MultiCarousel-inner .item > div 
+{
+     /* text-align: center;  */
+/* padding:10px; */
+margin:10px; 
+background-color:white; 
+color:#666;}
+
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; 
+border-radius:2px;
+border: 2px solid black;
+background-color: transparent;
+height: 70px;
+top:calc(50% - 20px); }
+.MultiCarousel .leftLst { left:0; }
+.MultiCarousel .rightLst { right:0; }
+    
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none;
+  display: none;
+ }
+
 @media screen and (max-width: 570px) {
   .navbar-nav{display:none;
   }
