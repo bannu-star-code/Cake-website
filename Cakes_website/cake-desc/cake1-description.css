@@ -25,6 +25,7 @@ body{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    z-index: 100;
   }
   
   .sidenav a {
@@ -103,13 +104,11 @@ body{
   .btn{
     border-radius: 30px;
     border: 1px solid rgb(233, 162, 162);
-    transform:10s ;
-    position: fixed;
-    z-index: 14;
+   
+    
+    
   }
-  .btn:hover{
-    transform: translateY(50px);
-  }
+  
   .btn1{
     background-image: linear-gradient(to right,rgb(223, 209, 209), rgb(253, 252, 252));
     border-radius: 20px;
@@ -151,7 +150,7 @@ transition: 1s;
       border: 1px solid rgb(233, 162, 162);
       transform:1s ;
      position: relative;
-      z-index: 14;
+      
     }
 }
 
