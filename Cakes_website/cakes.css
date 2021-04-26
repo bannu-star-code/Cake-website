@@ -183,6 +183,28 @@ background-color: white;
 ul li{
   list-style: none;
 }
+
+/* @media screen and (max-width: 1050px) {
+  .img{
+height: 350px; 
+} 
+.carousel-indicators{
+margin-top: 300px;
+}
+.text{
+margin: 0px 0px;
+}
+.t{
+margin: 40px 10px;
+}
+.text_order{order: 2;}
+.img_order{order: 1;}
+.move{
+position: relative;
+left: -30px;
+} 
+}*/
+
 @media screen and (max-width: 570px) {
   .navbar-nav{display:none;
   }
@@ -201,6 +223,50 @@ ul li{
   text-align:left;
   margin: 0px 30px;
    }
+ 
+}
+@media screen and (min-width:570px) and (max-width:2100px) {
+  .span{display: none;}
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 570px) {
+  .navbar-nav{display:none;
+  }
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .mysidenav1{
+    width: 200px;
+  }
+ .delicious{
+   margin-left: 20px !important; 
+ }
+ .text-right{
+   margin-right: 0px !important;
+ }
+ .view1{
+  text-align:left;
+  margin: 0px 30px;
+   }
+   .move{
+    position: relative;
+    left: -30px;
+ }
 } 
 
 
@@ -208,3 +274,99 @@ ul li{
     .span{display: none;}
     
   } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* Carousel
+----------------------------------- */
+.carousel-fade .carousel-item {
+	opacity: 0;
+	transition-duration: .6s;
+	transition-property: opacity;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+	opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+	opacity: 0;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+	transform: translateX(0);
+	transform: translate3d(0, 0, 0);
+}
+/* extra */
+.responsive{
+    width: 100%;
+    height: auto;
+}
+.img{
+  height: 435px; 
+  
+}
+.text{
+    margin: 150px 20px;
+}
+
+@media screen and (max-width: 1050px) {
+       .img{
+  height: 350px; 
+} 
+.carousel-indicators{
+    margin-top: 300px;
+}
+.text{
+    margin: 0px 0px;
+}
+.t{
+   margin: 40px 10px;
+}
+.text_order{order: 2;}
+.img_order{order: 1;}
+.move{
+   position: relative;
+   left: -30px;
+}
+}
+
+@media screen and (max-width: 850px){
+.move{
+   position: relative;
+   left: -60px;
+}
+}
+@media screen and (max-width: 570px) {
+    .move{
+   position: relative;
+   left: -30px;
+}}  
+
+
+
+
+
+
+
+
+
+
+  
